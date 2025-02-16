@@ -11,7 +11,7 @@ func show_message(text):
 	$MessageLabel.show()
 	$MessageTimer.start()
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_pressed("start"):
 		if($Button.visible):
 			startGame()
